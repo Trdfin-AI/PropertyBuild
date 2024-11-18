@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="/src/assets/css/index.css">
+
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="index">
+        <div class="">
+            <nav class="navbar">
+
+                <img src="/src/assets/svg/a.svg" alt="Logo" class="firstLogo">
+
+
+                <div class="logo">
+                    <img src="/src/assets/svg/a.svg" alt="Logo">
+                    <div class="logo">
+                        <a class="anchorTag" href="#investment">Offering</a>
+                        <a class="anchorTag" href="#investment">Investment</a>
+                        <a class="anchorTag" href="#voting">Voting</a>
+                        <a class="anchorTag" href="/src/pages/ConnectWallet.html">Wallet</a>
+                    </div>
+
+                </div>
+
+                <div class="profileMenu">
+                    <div class="search-container">
+                        <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="text" id="searchBar" placeholder="Search...">
+                    </div>
+                    <button id="profileBtn"><i class="fa-regular fa-user"></i></button>
+                    <div class="dropdownContent" id="profileDropdown">
+                        <div>
+                            <a class="profileComponent" href="#profile"><i class="fa-solid fa-circle-user"></i> Profile
+                            </a>
+                            <a class="profileComponent" href="#message"> <i class="fa-solid fa-comment"></i> Message
+                            </a>
+                            <a href="#logout">Logout <i class="fa-solid fa-right-to-bracket"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- mobile view -->
+                <div class="mobileDashboard">
+                    <div class=" btn">
+                        <button id="toggleBtn">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                    <div id="sidebar" class="sidebar">
+
+                        <div style="display: flex;justify-content: end;">
+                            <button class="closeBtn" id="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+
+                        </div>
+
+                        <div class="sidebarContent">
+                            <input type="text" id="searchbar" placeholder="Search...">
+                            <a href="#">Offering <i class="fa-solid fa-handshake"></i></a>
+                            <a href="#">Investment <i class="fa-solid fa-coins"></i></a>
+                            <a href="#">Voting <i class="fa-solid fa-diamond"></i></a>
+                            <a href="/src/pages/ConnectWallet.html">Wallet <i class="fa-solid fa-wallet"></i></a>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </nav>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- Navigation bar -->
+    <div class="issuerNav">
+        <div class="title">Token Create</div>
+        <div class="links">
+            <a href="#dashboard" class="link">
+                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/speed.png" alt="Dashboard Icon">
+                Dashboard
+            </a>
+            <a href="#token-create" class="link">
+                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/coins.png" alt="Token Create Icon">
+                Token Create
+            </a>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="form-sections">
+            <!-- Create Asset Section -->
+            <div class="formSection1">
+                <h2 class="issuerfirst">Create Asset</h2>
+
+                <div class="issuerDisplay">
+                    <div class="form-group">
+                        <label for="prospectus">Prospectus/OM *</label>
+                        <input type="text" id="prospectus" name="prospectus" placeholder="Enter Create Assets">
+                    </div>
+                    <div class="form-group">
+                        <label for="asset-logo">Asset Logo *</label>
+                        <input type="file" id="asset-logo" name="asset-logo">
+                    </div>
+                </div>
+
+                <div class="issuerDisplay">
+                    <div class="form-group">
+                        <label for="deal-size">Total Deal Size *</label>
+                        <input type="text" id="deal-size" name="deal-size" placeholder="Enter deal size">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="annual-return">Expected Annual Return (%) *</label>
+                        <input type="text" id="annual-return" name="annual-return"
+                            placeholder="Enter expected annual return">
+                    </div>
+                </div>
+
+                <div class="issuerDisplay">
+                    <div class="form-group">
+                        <label for="asset-members">Asset Members *</label>
+                        <input type="text" id="asset-members" name="asset-members" placeholder="Enter fund assets">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="property-detail">Show Property Detail *</label>
+                        <select id="property-detail" name="property-detail">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <opt ion value="no">No</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="issuerDisplay">
+                    <div class="form-group">
+                        <label for="status">Project Status *</label>
+                        <input type="text" id="status" name="status" value="Live" readonly>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="min-investment">Minimum Investment *</label>
+                        <input type="text" id="min-investment" name="min-investment"
+                            placeholder="Enter minimum investment">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="holding-period">Minimum Holding Period *</label>
+                    <input type="text" id="holding-period" name="holding-period" placeholder="Enter holding period">
+                </div>
+            </div>
+
+            <!-- Overview Details Section -->
+            <div class="formSection2">
+                <h2 class="issuerfirst">Overview Details</h2>
+
+                <div class="form-group">
+                    <label for="asset-overview">Asset Overview *</label>
+                    <textarea id="asset-overview" name="asset-overview" rows="6"
+                        placeholder="Enter assets overview"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="management-description">Management Team Description *</label>
+                    <textarea id="management-description" name="management-description" rows="6"
+                        placeholder="Enter management team description"></textarea>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Document Report -->
+        <div class="form-sections">
+            <div class="formSection3">
+                <h2 class="issuerfirst">Document/Reports</h2>
+
+                <div class="issuerDisplay">
+                    <div class="form-group">
+                        <label for="prospectus">Prospectus/OM *</label>
+                        <input type="text" id="prospectus" name="prospectus" placeholder="Enter Create Assets">
+                    </div>
+                    <div class="form-group">
+                        <label for="asset-logo">Report *</label>
+                        <input type="file" id="asset-logo" name="asset-logo">
+                    </div>
+                </div>
+
+                <div class="issuerDisplay">
+                    <div class="form-group">
+                        <label for="deal-size">Report *</label>
+                        <input type="text" id="deal-size" name="deal-size" placeholder="Enter deal size">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="annual-return">Additional information*</label>
+                        <input type="text" id="annual-return" name="annual-return"
+                            placeholder="Enter expected annual return">
+                    </div>
+                </div>
+
+                <div class="issuerDisplay">
+                    <div class="form-group">
+                        <label for="asset-members">Brochure*</label>
+                        <input type="text" id="asset-members" name="asset-members" placeholder="Enter fund assets">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Token Details -->
+
+            <div class="formSection4">
+                <h2 class="issuerfirst">Token Details</h2>
+
+                <div class="form-group">
+                    <label for="asset-overview">Management Team Description *</label>
+                    <textarea id="asset-overview" name="asset-overview" rows="6"
+                        placeholder="Enter assets overview"></textarea>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- manegment -->
+        <div class="form-sections">
+        <div class="formSection4">
+            <h2 class="issuerfirst">Management Members</h2>
+
+
+            <div class="issuerDisplay">
+                <div class="form-group">
+                    <label for="prospectus">Prospectus/OM *</label>
+                    <input type="text" id="prospectus" name="prospectus" placeholder="Enter Create Assets">
+                </div>
+                <div class="form-group">
+                    <label for="asset-logo">Asset Logo *</label>
+                    <input type="file" id="asset-logo" name="asset-logo">
+                </div>
+            </div>
+
+            <div class="issuerDisplay">
+                <div class="form-group">
+                    <label for="deal-size">Total Deal Size *</label>
+                    <input type="text" id="deal-size" name="deal-size" placeholder="Enter deal size">
+                </div>
+
+                <div class="form-group">
+                    <label for="annual-return">Expected Annual Return (%) *</label>
+                    <input type="text" id="annual-return" name="annual-return"
+                        placeholder="Enter expected annual return">
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <div class="button-container">
+            <button type="submit">Create Asset</button>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jQuery Validation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"
+        integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- JS -->
+    <script src="/src/assets/js/script.js"></script>
+    <!-- Fontawesone -->
+    <script src="https://kit.fontawesome.com/99e1031307.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
