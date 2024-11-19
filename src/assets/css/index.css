@@ -860,6 +860,7 @@ h1 {
     border: 1px solid var(--primary-color);
     border-radius: 4px;
     outline: none;
+    overflow: hidden;
 }
 
 
@@ -1045,6 +1046,21 @@ button:hover {
     .form-sections {
         margin: auto;
     }
+    .form-group input[type="text"],
+.form-group input[type="file"],
+.form-group select,
+.form-group textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    outline: none;
+    overflow: hidden;
+}
+
+
+    
 }
 
 @media (max-width: 777px) {
