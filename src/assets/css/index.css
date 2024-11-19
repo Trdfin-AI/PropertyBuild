@@ -785,7 +785,7 @@ h1 {
 
 .formSection1 {
     flex: 1;
-    background-color: #f0f3f9;
+    background-color: var(--secondary-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -793,7 +793,7 @@ h1 {
 
 .formSection2 {
     flex: 1;
-    background-color: #f0f3f9;
+    background-color:var(--secondary-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -801,14 +801,14 @@ h1 {
 
 .formSection3 {
     flex: 1;
-    background-color: #f0f3f9;
+    background-color: var(--secondary-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .formSection4 {
-    background-color: #f0f3f9;
+    background-color: var(--secondary-color);
     padding: 0px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -1039,9 +1039,9 @@ button:hover {
     .form-group input[type="file"],
     .form-group select,
     .form-group textarea {
-        width: 90%;
-        padding: 5px;
-        font-size: 14px;
+        width: 100%;
+        padding: 10px;
+        font-size: 12px;
         border: 1px solid var(--primary-color);
         border-radius: 4px;
         outline: none;
@@ -1058,6 +1058,46 @@ button:hover {
         margin: auto;
         margin-top: 20px;
     }
+    
+.formSection1 {
+    flex: 1;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.formSection2 {
+    flex: 1;
+    background-color:var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.formSection3 {
+    flex: 1;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.formSection4 {
+    background-color: var(--secondary-color);
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.container {
+    max-width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+   
+}
 
 }
 
