@@ -735,12 +735,13 @@ body {
     text-decoration: none;
 }
 
-/* .issuerNav.link img {
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
-} */
 
+
+.issuerNav .links .link img {
+    width: 24px; 
+    height: 24px; 
+    object-fit: contain; 
+}
 
 /* Container for the entire form */
 .issuerfirst {
@@ -829,9 +830,6 @@ h1 {
 }
 
 .issuerDisplay {
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 40px; */
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -854,7 +852,7 @@ h1 {
 .form-group input[type="file"],
 .form-group select,
 .form-group textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     font-size: 14px;
     border: 1px solid var(--primary-color);
@@ -948,12 +946,6 @@ button:hover {
         text-decoration: none;
     }
 
-    .issuerNav.link img {
-        width: 1px;
-        height: 10px;
-        margin-right: 8px;
-    }
-
     .form-sections {
         margin: auto;
     }
@@ -1003,7 +995,7 @@ button:hover {
 
     .issuerNav .title {
         flex: 1;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: bold;
     }
 
@@ -1017,15 +1009,11 @@ button:hover {
         gap: 10px;
         align-items: center;
         color: white;
-        font-size: 16px;
+        font-size: 10px;
         text-decoration: none;
     }
 
-    .issuerNav.link img {
-        width: 1px;
-        height: 10px;
-        margin-right: 8px;
-    }
+   
 
     .formSection4 {
         padding: 30px;
