@@ -1074,7 +1074,7 @@ button:hover {
     .formSection4 {
         flex: 1;
         background-color: var(--secondary-color);
-        padding: 20px;
+        padding: 10px;
         border-radius: 8px;
         box-shadow: none;
     }
