@@ -106,6 +106,9 @@
             </a>
         </div>
     </div>
+
+
+
     <div class="container">
 
         <div class="form-sections">
@@ -157,7 +160,7 @@
                 <div class="issuerDisplay">
                     <div class="form-group">
                         <label for="status">Project Status *</label>
-                        <input type="text" id="status" name="status" value="Live" readonly>
+                        <input type="text" id="status" name="status" readonly>
                     </div>
 
                     <div class="form-group">
@@ -178,14 +181,14 @@
                 <h2 class="issuerfirst">Overview Details</h2>
 
                 <div class="form-group">
-                    <label for="asset-overview">Asset Overview *</label>
-                    <textarea id="asset-overview" name="asset-overview" rows="6"
+                    <label for="assetOverview">Asset Overview *</label>
+                    <textarea id="assetOverview" name="asset-overview" rows="6"
                         placeholder="Enter assets overview"></textarea>
                 </div>
 
                 <div class="form-group">
                     <label for="management-description">Management Team Description *</label>
-                    <textarea id="management-description" name="management-description" rows="6"
+                    <textarea id="managementDescription" name="management-description" rows="6"
                         placeholder="Enter management team description"></textarea>
                 </div>
             </div>
@@ -200,23 +203,23 @@
                 <div class="issuerDisplay">
                     <div class="form-group">
                         <label for="prospectus">Prospectus/OM *</label>
-                        <input type="text" id="prospectus" name="prospectus" placeholder="Enter Create Assets">
+                        <input type="text" id="prospectusOM" name="prospectus" placeholder="Enter Create Assets">
                     </div>
                     <div class="form-group">
                         <label for="asset-logo">Report *</label>
-                        <input type="file" id="asset-logo" name="asset-logo">
+                        <input type="file" id="assetLogo" name="asset-logo">
                     </div>
                 </div>
 
                 <div class="issuerDisplay">
                     <div class="form-group">
                         <label for="deal-size">Report *</label>
-                        <input type="text" id="deal-size" name="deal-size" placeholder="Enter deal size">
+                        <input type="text" id="dealSize" name="deal-size" placeholder="Enter deal size">
                     </div>
 
                     <div class="form-group">
                         <label for="annual-return">Additional information*</label>
-                        <input type="text" id="annual-return" name="annual-return"
+                        <input type="text" id="annualReturn" name="annual-return"
                             placeholder="Enter expected annual return">
                     </div>
                 </div>
@@ -224,7 +227,7 @@
                 <div class="issuerDisplay">
                     <div class="form-group">
                         <label for="asset-members">Brochure*</label>
-                        <input type="text" id="asset-members" name="asset-members" placeholder="Enter fund assets">
+                        <input type="text" id="assetMembers" name="asset-members" placeholder="Enter fund assets">
                     </div>
                 </div>
 
@@ -236,52 +239,69 @@
             <div class="formSection4">
                 <h2 class="issuerfirst">Token Details</h2>
 
-                <div class="form-group">
-                    <label for="asset-overview">Management Team Description *</label>
-                    <textarea id="asset-overview" name="asset-overview" rows="6"
-                        placeholder="Enter assets overview"></textarea>
+                <div class="TokenDetails">
+                    <div class="form-group">
+                        <label for="asset-members">Token Name*</label>
+                        <input type="text" id="TokenName" name="TokenName" placeholder="Enter Token Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="asset-members">Token Value (USD)*</label>
+                        <input type="text" id="TokenValue" name="TokenName" placeholder="Enter Token Value">
+                    </div>
+                    <div class="form-group">
+                        <label for="asset-members">Token Symbol*</label>
+                        <input type="text" id="TokenSymbol" name="TokenName" placeholder="Enter Token Symbol">
+                    </div>
+                    <div class="form-group">
+                        <label for="asset-members">Token Supply*</label>
+                        <input type="text" id="TokenSupply" name="TokenName" placeholder="Enter Token Supply">
+                    </div>
+
                 </div>
+
             </div>
         </div>
 
 
         <!-- manegment -->
         <div class="form-sections">
-        <div class="formSection4">
-            <h2 class="issuerfirst">Management Members</h2>
+            <div class="formSection4">
+                <h2 class="issuerfirst">Management Members</h2>
 
 
-            <div class="issuerDisplay">
-                <div class="form-group">
-                    <label for="prospectus">Prospectus/OM *</label>
-                    <input type="text" id="prospectus" name="prospectus" placeholder="Enter Create Assets">
+                <div class="issuerDisplay">
+                    <div class="form-group">
+                        <label for="manegmentProspectus">Prospectus/OM *</label>
+                        <input type="text" id="manegmentProspectus" name="manegmentProspectus"
+                            placeholder="Enter Create Assets">
+                    </div>
+                    <div class="form-group">
+                        <label for="manegmentLogo">Asset Logo *</label>
+                        <input type="file" id="manegmentLogo" name="manegmentLogo">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="asset-logo">Asset Logo *</label>
-                    <input type="file" id="asset-logo" name="asset-logo">
+
+                <div class="issuerDisplay">
+                    <div class="form-group">
+                        <label for="manegmentDealSize">Total Deal Size *</label>
+                        <input type="text" id="manegmentDealSize" name="manegmentDealSize"
+                            placeholder="Enter deal size">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ManagemenAnnualReturn">Expected Annual Return (%) *</label>
+                        <input type="text" id="ManagemenAnnualReturn" name="ManagemenAnnualReturn"
+                            placeholder="Enter expected annual return">
+                    </div>
                 </div>
+
+
             </div>
 
-            <div class="issuerDisplay">
-                <div class="form-group">
-                    <label for="deal-size">Total Deal Size *</label>
-                    <input type="text" id="deal-size" name="deal-size" placeholder="Enter deal size">
-                </div>
-
-                <div class="form-group">
-                    <label for="annual-return">Expected Annual Return (%) *</label>
-                    <input type="text" id="annual-return" name="annual-return"
-                        placeholder="Enter expected annual return">
-                </div>
+            <div class="button-container">
+                <button type="submit">Create Asset</button>
             </div>
-            
-            
         </div>
-
-        <div class="button-container">
-            <button type="submit">Create Asset</button>
-        </div>
-    </div>
     </div>
 
 
@@ -296,6 +316,10 @@
     <script src="../assets/js/script.js"></script>
     <!-- Fontawesone -->
     <script src="https://kit.fontawesome.com/99e1031307.js" crossorigin="anonymous"></script>
+    <!-- jQuery Validation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"
+        integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 </body>

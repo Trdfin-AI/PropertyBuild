@@ -246,3 +246,133 @@ function displayPhoto(event) {
         reader.readAsDataURL(file);
     }
 }
+
+
+
+
+
+
+
+
+
+// form validation
+
+$(document).ready(function () {
+    $('button[type="submit"]').click(function (event) {
+        event.preventDefault();
+
+        $('.error').remove();
+
+        let isValid = true;
+
+        // Validate Create Asset section
+        if ($('#prospectus').val().trim() === '') {
+            $('#prospectus').after('<span class="error">Prospectus/OM is required.</span>');
+            isValid = false;
+        }
+        if ($('#asset-logo').val().trim() === '') {
+            $('#asset-logo').after('<span class="error">Asset Logo is required.</span>');
+            isValid = false;
+        }
+        if ($('#deal-size').val().trim() === '') {
+            $('#deal-size').after('<span class="error">Total Deal Size is required.</span>');
+            isValid = false;
+        }
+        if ($('#annual-return').val().trim() === '') {
+            $('#annual-return').after('<span class="error">Expected Annual Return is required.</span>');
+            isValid = false;
+        }
+
+        if ($('#property-detail').val().trim() === '') {
+            $('#property-detail').after('<span class="error">Show Property Detail selection is required.</span>');
+            isValid = false;
+        }
+        if ($('#min-investment').val().trim() === '') {
+            $('#min-investment').after('<span class="error">Minimum Investment is required.</span>');
+            isValid = false;
+        }
+        if ($('#holding-period').val().trim() === '') {
+            $('#holding-period').after('<span class="error">Minimum Holding Period is required.</span>');
+            isValid = false;
+        }
+
+        // Validate Overview Details section
+        if ($('#assetOverview').val().trim() === '') {
+            $('#assetOverview').after('<span class="error">Asset Overview is required.</span>');
+            isValid = false;
+        }
+        if ($('#prospectusOM').val().trim() === '') {
+            $('#prospectusOM').after('<span class="error">Prospectus/OM is required.</span>');
+            isValid = false;
+        }
+        if ($('#assetLogo').val().trim() === '') {
+            $('#assetLogo').after('<span class="error">Report is required.</span>');
+            isValid = false;
+        } if ($('#dealSize').val().trim() === '') {
+            $('#dealSize').after('<span class="error">Report is required.</span>');
+            isValid = false;
+        } if ($('#annualReturn').val().trim() === '') {
+            $('#annualReturn').after('<span class="error">Information is required.</span>');
+            isValid = false;
+        }
+        if ($('#assetMembers').val().trim() === '') {
+            $('#assetMembers').after('<span class="error">Brochure is required.</span>');
+            isValid = false;
+        }
+        if ($('#managementDescription').val().trim() === '') {
+            $('#managementDescription').after('<span class="error">Management Team Description is required.</span>');
+            isValid = false;
+        }
+        if ($('#asset-members').val().trim() === '') {
+            $('#asset-members').after('<span class="error">Brochure is required.</span>');
+            isValid = false;
+        }
+        if ($('#status').val().trim() === '') {
+            $('#status').after('<span class="error">Status is required.</span>');
+            isValid = false;
+        }
+
+        // Token Deatils
+        if ($('#TokenName').val().trim() === '') {
+            $('#TokenName').after('<span class="error">Token Name is required.</span>');
+            isValid = false;
+        }
+        if ($('#TokenValue').val().trim() === '') {
+            $('#TokenValue').after('<span class="error">Token Value is required.</span>');
+            isValid = false;
+        }
+        if ($('#TokenSymbol').val().trim() === '') {
+            $('#TokenSymbol').after('<span class="error">Token Symbol is required.</span>');
+            isValid = false;
+        }
+        if ($('#TokenSupply').val().trim() === '') {
+            $('#TokenSupply').after('<span class="error">Token Supply is required.</span>');
+            isValid = false;
+        }
+        //  Management Details
+        if ($('#manegmentProspectus').val().trim() === '') {
+            $('#manegmentProspectus').after('<span class="error">OM is required.</span>');
+            isValid = false;
+        }
+        if ($('#manegmentLogo').val().trim() === '') {
+            $('#manegmentLogo').after('<span class="error">Asset Logo is required.</span>');
+            isValid = false;
+        }
+        if ($('#manegmentDealSize').val().trim() === '') {
+            $('#manegmentDealSize').after('<span class="error">Total deal size is required.</span>');
+            isValid = false;
+        }
+        if ($('#ManagemenAnnualReturn').val().trim() === '') {
+            $('#ManagemenAnnualReturn').after('<span class="error">Annual return is required.</span>');
+            isValid = false;
+        }
+
+
+
+
+        if (!isValid) {
+            return false;
+        }
+        alert('Form is valid. Proceed with form submission.');
+    });
+});
