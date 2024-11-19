@@ -738,9 +738,9 @@ body {
 
 
 .issuerNav .links .link img {
-    width: 24px; 
-    height: 24px; 
-    object-fit: contain; 
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
 }
 
 /* Container for the entire form */
@@ -793,7 +793,7 @@ h1 {
 
 .formSection2 {
     flex: 1;
-    background-color:var(--secondary-color);
+    background-color: var(--secondary-color);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -820,11 +820,8 @@ h1 {
 
 .form-group {
     margin-bottom: 15px;
-    /* background-color: white; */
-    /* width: fit-content; */
     width: 300px;
     position: relative;
-    /* padding: 20px; */
     padding-right: 20px;
 
 }
@@ -1013,7 +1010,7 @@ button:hover {
         text-decoration: none;
     }
 
-   
+
 
     .formSection4 {
         padding: 30px;
@@ -1051,53 +1048,67 @@ button:hover {
 
     .container {
         max-width: 100%;
-        background-color: #ffffff;
+        background-color: var(--secondary-color);
         padding: 20px;
         border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        margin: auto;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
         margin-top: 20px;
     }
+
+    .formSection1 {
+        flex: 1;
+        background-color: var(--secondary-color);
+        padding: 20px;
+        border-radius: 8px;
+        /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+        width: 100%;
+    }
+
+    .formSection2 {
+        flex: 1;
+        background-color: var(--secondary-color);
+        padding: 20px;
+        border-radius: 8px;
+        /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+        width: 100%;
+    }
+
+    .formSection3 {
+        flex: 1;
+        background-color: var(--secondary-color);
+        padding: 20px;
+        border-radius: 8px;
+        /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+        width: 100%;
+    }
+
+    .formSection4 {
+        background-color: var(--secondary-color);
+        padding: 0px;
+        border-radius: 8px;
+        /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+
+    }
+
+    .container {
+        max-width: 100%;
+        background-color: #ffffff;
+        padding: 10px;
+
+    }
+    .issuerfirst {
+        background-color: var(--primary-color);
+        padding: 4px 10px;
+        width: fit-content;
+        border-radius: 10px;
+        color: var(--secondary-color);
+        font-size: 15px;
+    }
     
-.formSection1 {
-    flex: 1;
-    background-color: var(--secondary-color);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.formSection2 {
-    flex: 1;
-    background-color:var(--secondary-color);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.formSection3 {
-    flex: 1;
-    background-color: var(--secondary-color);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.formSection4 {
-    background-color: var(--secondary-color);
-    padding: 0px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
-.container {
-    max-width: 100%;
-    background-color: #ffffff;
-    padding: 10px;
-   
-}
+  
 
 }
 
