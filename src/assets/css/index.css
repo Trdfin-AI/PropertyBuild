@@ -1033,7 +1033,7 @@ button:hover {
         border-radius: 4px;
         outline: none;
         overflow: hidden;
-        margin: auto;
+        margin-right: 10px;
 
     }
 
