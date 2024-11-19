@@ -982,7 +982,7 @@ button:hover {
         margin-top: 20px;
 
     }
-   
+
     .issuerDisplay {
         display: block;
         gap: 10px;
@@ -1046,21 +1046,32 @@ button:hover {
     .form-sections {
         margin: auto;
     }
+
     .form-group input[type="text"],
-.form-group input[type="file"],
-.form-group select,
-.form-group textarea {
-    width: 60%;
-    padding: 5px;
-    font-size: 14px;
-    border: 1px solid var(--primary-color);
-    border-radius: 4px;
-    outline: none;
-    overflow: hidden;
-}
+    .form-group input[type="file"],
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+        padding: 5px;
+        font-size: 14px;
+        border: 1px solid var(--primary-color);
+        border-radius: 4px;
+        outline: none;
+        overflow: hidden;
+        /* margin-right: 10px; */
+        
+    }
 
+    .container {
+        max-width: 100%;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: auto;
+        margin-top: 20px;
+    }
 
-    
 }
 
 @media (max-width: 777px) {
@@ -1085,7 +1096,7 @@ button:hover {
     .formSection3 {
         margin-bottom: 20px;
     }
-   
+
 
 }
 
@@ -1186,7 +1197,7 @@ button:hover {
     .formSection3 {
         margin-bottom: 20px;
     }
-   
+
 }
 
 @media (max-width: 1242px) {
