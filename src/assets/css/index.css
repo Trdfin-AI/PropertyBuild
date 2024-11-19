@@ -1080,10 +1080,10 @@ button:hover {
     }
 
     .formSection4 {
+        flex: 1;
         background-color: var(--secondary-color);
-        padding: 0px;
+        padding: 20px;
         border-radius: 8px;
-        /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
         
 
     }
