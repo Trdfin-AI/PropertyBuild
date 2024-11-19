@@ -1027,12 +1027,13 @@ button:hover {
     .form-group select,
     .form-group textarea {
         width: 100%;
-        padding: 2px;
+        padding: 2px 4px;
         font-size: 12px;
         border: 1px solid var(--primary-color);
         border-radius: 4px;
         outline: none;
         overflow: hidden;
+        margin: auto;
 
     }
 
@@ -1074,7 +1075,8 @@ button:hover {
     .formSection4 {
         flex: 1;
         background-color: var(--secondary-color);
-        padding: 2px;
+        padding: 20
+        px;
         border-radius: 8px;
         box-shadow: none;
     }
