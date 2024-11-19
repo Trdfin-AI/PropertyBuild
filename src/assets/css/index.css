@@ -1012,25 +1012,15 @@ button:hover {
 
 
 
-    .formSection4 {
-        padding: 30px;
-    }
+
 
     .button-container {
         margin-top: 10%;
     }
 
-    .formSection2 {
-        margin-top: 20px;
-    }
+   
 
-    .formSection3 {
-        margin-bottom: 20px;
-    }
-
-    .form-sections {
-        margin: auto;
-    }
+    
 
     .form-group input[type="text"],
     .form-group input[type="file"],
@@ -1069,6 +1059,7 @@ button:hover {
         padding: 20px;
         border-radius: 8px;
         box-shadow: none;
+        margin-top: 20px;
     }
 
     .formSection3 {
@@ -1077,6 +1068,7 @@ button:hover {
         padding: 20px;
         border-radius: 8px;
         box-shadow: none;
+        margin-bottom: 20px;
     }
 
     .formSection4 {
