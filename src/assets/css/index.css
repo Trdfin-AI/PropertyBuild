@@ -1001,14 +1001,14 @@ button:hover {
     .form-sections {
         display: flex;
         flex-direction: column;
-        gap: 15px; /* Adjusted gap */
-        margin-top: 10px; /* Reduced margin */
+        gap: 15px;
+        margin-top: 10px; 
     }
 
     .issuerDisplay {
         display: flex;
         flex-direction: column;
-        gap: 8px; /* Adjusted gap */
+        gap: 8px; 
     }
 
     .issuerNav {
@@ -1018,48 +1018,48 @@ button:hover {
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 8px; /* Reduced padding */
+        padding: 8px; 
         font-family: var(--fontPrime);
-        border-top-left-radius: 10px; /* Adjusted radius */
+        border-top-left-radius: 10px; 
         border-top-right-radius: 10px;
-        box-shadow: 0px -2px 8px var(--primary-color); /* Adjusted shadow */
+        box-shadow: 0px -2px 8px var(--primary-color);
     }
 
     .issuerNav .title {
         flex: 1;
-        font-size: 14px; /* Reduced font size */
+        font-size: 14px; 
         font-weight: bold;
     }
 
     .issuerNav .links {
         display: flex;
-        gap: 15px; /* Adjusted gap */
+        gap: 15px; 
     }
 
     .issuerNav .link {
         display: flex;
-        gap: 8px; /* Adjusted gap */
+        gap: 8px; 
         align-items: center;
-        color: white;
+        color: var(--secondary-color);
         font-size: 10px;
         text-decoration: none;
     }
 
     .button-container {
-        margin-top: 8%; /* Adjusted margin */
+        margin-top: 8%
     }
 
     .form-group input[type="text"],
     .form-group input[type="file"],
     .form-group select,
     .form-group textarea {
-        width: calc(100% - 20px); /* Dynamic width adjustment */
-        padding: 8px; /* Adjusted padding */
+        width: calc(100% - 20px); 
+        padding: 8px;
         font-size: 12px;
         border: 1px solid var(--primary-color);
         border-radius: 4px;
         outline: none;
-        margin-right: 0; /* Removed extra margin */
+        margin-right: 0; 
     }
 
     .formSection1,
@@ -1068,37 +1068,37 @@ button:hover {
     .formSection4 {
         flex: 1;
         background-color: var(--secondary-color);
-        padding: 15px; /* Unified padding */
+        padding: 15px;
         border-radius: 8px;
         box-shadow: none;
-        margin-top: 15px; /* Adjusted margin */
+        margin-top: 15px; 
     }
 
     .formSection3 {
-        margin-bottom: 15px; /* Adjusted bottom margin */
+        margin-bottom: 15px;
     }
 
     .container {
         max-width: 100%;
         background-color: #ffffff;
-        padding: 8px; /* Reduced padding */
+        padding: 8px; 
     }
 
     .issuerfirst {
         background-color: var(--primary-color);
-        padding: 4px 8px; /* Adjusted padding */
+        padding: 4px 8px; 
         width: fit-content;
-        border-radius: 8px; /* Adjusted radius */
+        border-radius: 8px; 
         color: var(--secondary-color);
-        font-size: 14px; /* Adjusted font size */
+        font-size: 14px; 
     }
 
     .form-group {
-        margin-bottom: 10px; /* Reduced margin */
-        width: 100%; /* Full width */
+        margin-bottom: 10px; 
+        width: 100%; 
         position: relative;
-        padding-right: 0; /* Removed padding */
-        font-size: 14px; /* Adjusted font size */
+        padding-right: 0; 
+        font-size: 14px; 
     }
 }
 
