@@ -1182,6 +1182,10 @@ button:hover {
 
     }
 
+    .form-group select{
+        width: calc(100%-2px);
+        background-color: white;
+    }
 
     .container {
         max-width: 100%;
