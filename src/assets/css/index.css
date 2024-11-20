@@ -1204,7 +1204,10 @@ button:hover {
         margin-right: 50px;
 
     }
-
+.formSection4 input[type="text"],
+.formSection4 input[type="file"]{
+    width: calc(100%-25px);
+}
 
     .container {
         max-width: 100%;
