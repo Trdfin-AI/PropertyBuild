@@ -1026,7 +1026,7 @@ button:hover {
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 15px 8px;
+        padding:8px;
         font-family: var(--fontPrime);
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
